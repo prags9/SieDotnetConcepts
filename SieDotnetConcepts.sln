@@ -15,11 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DI_DemoLib", "DI_DemoLib\DI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InHeritance", "InHeritance\InHeritance.csproj", "{D1E5CA22-F60E-4425-B18E-012288F74009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{D7F41310-B983-42D0-B48F-3EA7C1C0B3DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{D7F41310-B983-42D0-B48F-3EA7C1C0B3DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{9CD872E3-2C30-4876-B11E-04BF70B90D53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{9CD872E3-2C30-4876-B11E-04BF70B90D53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{CE3F1B99-6794-4EEA-BD35-CF091411B61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{CE3F1B99-6794-4EEA-BD35-CF091411B61C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests_XUnit", "UnitTests_XUnit\UnitTests_XUnit.csproj", "{EE0A96F0-5BA1-4BF9-9BE9-4E69E78C91DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsXUnit.Test", "UnitTestsXUnit.Test\UnitTestsXUnit.Test.csproj", "{59E4C1D7-3234-4502-AD29-160372F1D673}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{DB2EC55E-A156-48A3-BE0A-4DDBD9C4055B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers_DemoLibrary", "AccessModifiers_DemoLibrary\AccessModifiers_DemoLibrary.csproj", "{ECA522DC-280E-428D-B158-556F83F5D7DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandCricket", "ConsoleApp1\HandCricket.csproj", "{2AB08DA9-2DA9-4F57-AD0B-F503BF5C1360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +73,26 @@ Global
 		{CE3F1B99-6794-4EEA-BD35-CF091411B61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE3F1B99-6794-4EEA-BD35-CF091411B61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE3F1B99-6794-4EEA-BD35-CF091411B61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0A96F0-5BA1-4BF9-9BE9-4E69E78C91DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0A96F0-5BA1-4BF9-9BE9-4E69E78C91DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0A96F0-5BA1-4BF9-9BE9-4E69E78C91DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0A96F0-5BA1-4BF9-9BE9-4E69E78C91DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E4C1D7-3234-4502-AD29-160372F1D673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E4C1D7-3234-4502-AD29-160372F1D673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E4C1D7-3234-4502-AD29-160372F1D673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E4C1D7-3234-4502-AD29-160372F1D673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2EC55E-A156-48A3-BE0A-4DDBD9C4055B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2EC55E-A156-48A3-BE0A-4DDBD9C4055B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2EC55E-A156-48A3-BE0A-4DDBD9C4055B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2EC55E-A156-48A3-BE0A-4DDBD9C4055B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA522DC-280E-428D-B158-556F83F5D7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA522DC-280E-428D-B158-556F83F5D7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA522DC-280E-428D-B158-556F83F5D7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA522DC-280E-428D-B158-556F83F5D7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB08DA9-2DA9-4F57-AD0B-F503BF5C1360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB08DA9-2DA9-4F57-AD0B-F503BF5C1360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB08DA9-2DA9-4F57-AD0B-F503BF5C1360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB08DA9-2DA9-4F57-AD0B-F503BF5C1360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
