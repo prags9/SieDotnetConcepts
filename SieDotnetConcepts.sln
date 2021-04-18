@@ -15,11 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DI_DemoLib", "DI_DemoLib\DI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InHeritance", "InHeritance\InHeritance.csproj", "{D1E5CA22-F60E-4425-B18E-012288F74009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{D7F41310-B983-42D0-B48F-3EA7C1C0B3DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{D7F41310-B983-42D0-B48F-3EA7C1C0B3DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{9CD872E3-2C30-4876-B11E-04BF70B90D53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{9CD872E3-2C30-4876-B11E-04BF70B90D53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{CE3F1B99-6794-4EEA-BD35-CF091411B61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{CE3F1B99-6794-4EEA-BD35-CF091411B61C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirPlaneSeatingArrangement", "AirPlaneSeatingArrangement\AirPlaneSeatingArrangement.csproj", "{D952B68D-66DA-4859-BD0E-9D81FC2FEA76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{D4CEAD65-4F4F-472D-88D5-2DC2341A8DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsForm", "EventsForm\EventsForm.csproj", "{2C310AF2-F24A-4A61-A479-9B498FF9D6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsLibrary", "EventsLibrary\EventsLibrary.csproj", "{0D375FB5-E93C-41A9-8BB0-81A086FE2893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{52AA1D3C-07C8-4557-A6D5-767D11A224A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +73,26 @@ Global
 		{CE3F1B99-6794-4EEA-BD35-CF091411B61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE3F1B99-6794-4EEA-BD35-CF091411B61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE3F1B99-6794-4EEA-BD35-CF091411B61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D952B68D-66DA-4859-BD0E-9D81FC2FEA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D952B68D-66DA-4859-BD0E-9D81FC2FEA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D952B68D-66DA-4859-BD0E-9D81FC2FEA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D952B68D-66DA-4859-BD0E-9D81FC2FEA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CEAD65-4F4F-472D-88D5-2DC2341A8DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CEAD65-4F4F-472D-88D5-2DC2341A8DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CEAD65-4F4F-472D-88D5-2DC2341A8DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CEAD65-4F4F-472D-88D5-2DC2341A8DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C310AF2-F24A-4A61-A479-9B498FF9D6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C310AF2-F24A-4A61-A479-9B498FF9D6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C310AF2-F24A-4A61-A479-9B498FF9D6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C310AF2-F24A-4A61-A479-9B498FF9D6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D375FB5-E93C-41A9-8BB0-81A086FE2893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D375FB5-E93C-41A9-8BB0-81A086FE2893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D375FB5-E93C-41A9-8BB0-81A086FE2893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D375FB5-E93C-41A9-8BB0-81A086FE2893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AA1D3C-07C8-4557-A6D5-767D11A224A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AA1D3C-07C8-4557-A6D5-767D11A224A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AA1D3C-07C8-4557-A6D5-767D11A224A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AA1D3C-07C8-4557-A6D5-767D11A224A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

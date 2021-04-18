@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace InHeritance
 {
-    class Car
+    /*class Car
     {
         public void DescribeCar()
         {
@@ -22,7 +22,7 @@ namespace InHeritance
         {
             System.Console.WriteLine("A roof that opens up.");
         }
-    } 
+    } */
     class Minivan : Car
     {
         public override void ShowDetails()
@@ -32,7 +32,7 @@ namespace InHeritance
     }
     public class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             System.Console.WriteLine("\nTestCars1");
             System.Console.WriteLine("----------");
@@ -41,7 +41,7 @@ namespace InHeritance
             car11.DescribeCar();
             System.Console.WriteLine("----------");
 
-            ConvertibleCar car21 = new ConvertibleCar();
+            Car car21 = new ConvertibleCar();
             car21.DescribeCar();
             System.Console.WriteLine("----------");
 
@@ -49,7 +49,7 @@ namespace InHeritance
             car31.DescribeCar();
             System.Console.WriteLine("----------");
             
-            /*
+            
             System.Console.WriteLine("\nTestCars2");
             System.Console.WriteLine("----------");
 
@@ -63,7 +63,7 @@ namespace InHeritance
                 car.DescribeCar();
                 System.Console.WriteLine("----------");
             }
-*/
+
             System.Console.WriteLine("\nTestCars3");
             System.Console.WriteLine("----------");
             ConvertibleCar car2 = new ConvertibleCar();
@@ -78,6 +78,6 @@ namespace InHeritance
             car4.ShowDetails();
             car5.ShowDetails();
 
-        }
+        }*/
     }
 }
